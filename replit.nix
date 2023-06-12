@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.iproute2
     pkgs.python38Full
   ];
   env = {
